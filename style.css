@@ -4,6 +4,9 @@ html {
     padding: 0;
 }
 
+.judul {
+    align-items: center;
+}
 .container {
     background-color :rgb(194, 194, 194);
 }
