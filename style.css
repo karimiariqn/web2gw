@@ -50,8 +50,9 @@ div {
     height : 80vh;
 }
  .img-content {
-    width: 40%;
-    height: 40%;
+    width: 50vh;
+    height: 50vh;
+    
  }
 
  .container-footer {
@@ -66,3 +67,29 @@ div {
  .h1-footer {
     font-size: 40px;
  }
+ 
+.container-linkbio{
+  height :10vh;
+  background-color: black;
+  color :#eee;
+  display: flex;
+  justify-content :center;
+  align-items: center;
+} 
+
+.ul-linkbio {
+  display: flex;
+  height: 100px;
+  justify-content :center;
+  align-items: center;
+  border: 1px;
+  border-color: whitesmoke;
+}
+
+.li-linkbio {
+  list-style-type :none;
+  padding :20px;
+  margin : 5px ;
+  color: aliceblue;
+  font-size: 40px;
+}
