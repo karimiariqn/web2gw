@@ -51,10 +51,14 @@ div {
     height : 80vh;
 }
 
-.a-conttent {
+.a-content {
     width: 500px;
     height: 500px;
+    display: flex;
+    justify-content :center;
+    align-items: center;
 }
+
  .img-content {
     width: 50%;
     height: 50%;
