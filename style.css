@@ -41,6 +41,7 @@ div {
 .a.nav {
     background-color: #eee;
     text-decoration: none;
+    font-weight: 800;
 }
 .container-content {
     color: bisque;
