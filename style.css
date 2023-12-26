@@ -5,7 +5,8 @@ html {
 }
 
 .judul {
-    align-items: center;
+    text-justify: auto;
+    text-align: center;
 }
 .container {
     background-color :rgb(194, 194, 194);
