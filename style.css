@@ -1,51 +1,63 @@
 *, 
 html {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10px;
+    color: #eee;
+    background-color: var(--bg-primary)
+
+}
+
+@import url();
+:root {
+    --bg-primary: #383838;
+    --text-color: #838383;
+}
+
+body, input, button, select,{   
+    font-family:Consolas
 }
 
 .judul {
     text-justify: auto;
-    text-align: center;
-}
-.container {
-    background-color :rgb(194, 194, 194);
+    text-align: left;
+    color: #eee;
 }
 
 .container-navbar {
-    background-color: #333;
-    width: 100%;
-    height: 10vh;
+    width: flex;
+    height: flex;
 }
 
 .ul-navbar {    
     display: flex;
-    height: 100px;
+    height: 50px;
     justify-content :center;
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+
+}
+
 .li-navbar {
     list-style-type :none;
-    padding :20px;
+    padding :15px;
     margin : 5px ;
     color: aliceblue;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .li-navbar:hover {
     background-color: aqua;
-    transition: .5s ease-in-out;
     border-radius: 8px ;
 }
 
 .a.nav {
-    background-color: #eee;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 40px;
 }
 .container-content {
-    color: bisque;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,6 +69,7 @@ html {
     display: flex;
     justify-content :center;
     align-items: center;
+    background-color: rgb(99, 99, 99);
 }
 
  .img-content {
@@ -74,31 +87,29 @@ html {
  }
 
  .h1-footer {
-    font-size: 40px;
+    font-size: flex;
  }
- 
-.container-linkbio{
-  height :10vh;
-  background-color: black;
-  color :#eee;
-  display: flex;
-  justify-content :center;
-  align-items: center;
-} 
 
-.ul-linkbio {
-  display: flex;
-  height: 100px;
-  justify-content :center;
-  align-items: center;
-  border: 1px;
-  border-color: whitesmoke;
+.judul-navbar {
+
 }
 
-.li-linkbio {
-  list-style-type :none;
-  padding :20px;
-  margin : 5px ;
-  color: aliceblue;
-  font-size: 40px;
+.ul-navbar-2 {    
+    display: flex;
+    height: 50px;
+    justify-content: left;
+    align-items: center;
+}
+
+.li-navbar-2 {
+    list-style-type :none;
+    padding :10px;
+    margin : 5px ;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.li-navbar-2:hover{
+    background-color: rgb(97, 97, 97);
+    border-radius: 4px ;
 }
